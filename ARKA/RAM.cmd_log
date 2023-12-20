@@ -1,0 +1,1 @@
+vhdtdtfi -prj S_box_gost -o C:/ff/S_box_gost/RAM.vhi -module RAM -template C:/NX/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RAM.vhd 

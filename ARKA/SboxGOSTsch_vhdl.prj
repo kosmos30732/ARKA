@@ -1,0 +1,3 @@
+vhdl work "C:\ff\S_box_gost\GOST_Decoder.vhd"
+vhdl work "C:\ff\S_box_gost\GOST_Coder.vhd"
+vhdl work "C:\ff\S_box_gost\SboxGOSTsch.vhf"

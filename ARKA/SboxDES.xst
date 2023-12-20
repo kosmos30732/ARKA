@@ -1,0 +1,5 @@
+set -tmpdir "C:/ff/S_box_gost/xst/projnav.tmp"
+set -xsthdpdir "C:/ff/S_box_gost/xst"
+elaborate
+-ifn SboxDES.prj
+-ifmt mixed

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/ff/S_box_gost/SboxDES.xst" -ofn "C:/ff/S_box_gost/SboxDES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 SboxDES.ngc SboxDES.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o SboxDES_map.ncd SboxDES.ngd SboxDES.pcf 
+par -w -intstyle ise -ol high -t 1 SboxDES_map.ncd SboxDES.ncd SboxDES.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SboxDES.twx SboxDES.ncd -o SboxDES.twr SboxDES.pcf 
+bitgen -intstyle ise -f SboxDES.ut SboxDES.ncd 

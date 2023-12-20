@@ -1,0 +1,4 @@
+vhdl work "sha256_types.vhd"
+vhdl work "sha256_constants.vhd"
+vhdl work "sha256_functions.vhd"
+vhdl work "sha256.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "LFSR.vhf"
+vhdl isim_temp "LFSRTb.vhd"

@@ -1,0 +1,57 @@
+V3 38
+FL C:/ff/S_box_gost/CRC.vhd 2023/12/04.18:14:24 P.20131013
+EN work/CRC 1701688471 FL C:/ff/S_box_gost/CRC.vhd PB ieee/std_logic_1164 1381692176
+AR work/CRC/Behavioral 1701688472 \
+      FL C:/ff/S_box_gost/CRC.vhd EN work/CRC 1701688471 CP RAM
+FL C:/ff/S_box_gost/fsm_1.vhd 2023/12/19.17:57:03 P.20131013
+EN work/fsm_1 1702984249 FL C:/ff/S_box_gost/fsm_1.vhd PB ieee/std_logic_1164 1381692176
+AR work/fsm_1/Behavioral 1702984250 \
+      FL C:/ff/S_box_gost/fsm_1.vhd EN work/fsm_1 1702984249
+FL C:/ff/S_box_gost/GOST_Coder.vhd 2023/10/29.00:42:33 P.20131013
+EN work/GOST_Coder 1698817798 FL C:/ff/S_box_gost/GOST_Coder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/GOST_Coder/Behavioral 1698817799 \
+      FL C:/ff/S_box_gost/GOST_Coder.vhd EN work/GOST_Coder 1698817798
+FL C:/ff/S_box_gost/GOST_Decoder.vhd 2023/10/29.00:17:46 P.20131013
+EN work/GOST_Decoder 1698817796 FL C:/ff/S_box_gost/GOST_Decoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/GOST_Decoder/Behavioral 1698817797 \
+      FL C:/ff/S_box_gost/GOST_Decoder.vhd EN work/GOST_Decoder 1698817796
+FL C:/ff/S_box_gost/LFSR_VHDL.vhd 2023/11/11.21:03:57 P.20131013
+EN work/LFSR_VHDL 1699711442 FL C:/ff/S_box_gost/LFSR_VHDL.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/LFSR_VHDL/Behavioral 1699711443 \
+      FL C:/ff/S_box_gost/LFSR_VHDL.vhd EN work/LFSR_VHDL 1699711442
+FL C:/ff/S_box_gost/RAM.vhd 2023/12/04.17:05:25 P.20131013
+EN work/RAM 1701688469 FL C:/ff/S_box_gost/RAM.vhd PB ieee/std_logic_1164 1381692176
+AR work/RAM/Behavioral 1701688470 \
+      FL C:/ff/S_box_gost/RAM.vhd EN work/RAM 1701688469
+FL C:/ff/S_box_gost/SboxDES.vhd 2023/10/28.22:07:18 P.20131013
+EN work/SboxDES 1698510298 FL C:/ff/S_box_gost/SboxDES.vhd PB ieee/std_logic_1164 1381692176
+AR work/SboxDES/Behavioral 1698510299 \
+      FL C:/ff/S_box_gost/SboxDES.vhd EN work/SboxDES 1698510298
+FL C:/ff/S_box_gost/SboxGOSTsch.vhf 2023/10/29.01:10:04 P.20131013
+EN work/SboxGOSTsch 1698817800 FL C:/ff/S_box_gost/SboxGOSTsch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SboxGOSTsch/BEHAVIORAL 1698817801 \
+      FL C:/ff/S_box_gost/SboxGOSTsch.vhf EN work/SboxGOSTsch 1698817800 \
+      CP GOST_Decoder CP GOST_Coder
+FL C:/ff/S_box_gost/sha256.vhd 2023/12/09.13:45:36 P.20131013
+EN work/sha256 1702104541 FL C:/ff/S_box_gost/sha256.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PH work/sha256_types 1702104537 \
+      PH work/sha256_constants 1702104538 PB work/sha256_functions 1702104540
+AR work/sha256/Behavioral 1702104542 \
+      FL C:/ff/S_box_gost/sha256.vhd EN work/sha256 1702104541
+FL C:/ff/S_box_gost/sha256_constants.vhd 2023/12/09.13:46:53 P.20131013
+PH work/sha256_constants 1702104538 FL C:/ff/S_box_gost/sha256_constants.vhd \
+      PB ieee/std_logic_1164 1381692176 PH work/sha256_types 1702104537
+FL C:/ff/S_box_gost/sha256_functions.vhd 2023/12/09.13:04:23 P.20131013
+PH work/sha256_functions 1702104539 FL C:/ff/S_box_gost/sha256_functions.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PH work/sha256_types 1702104537 PH work/sha256_constants 1702104538
+PB work/sha256_functions 1702104540 \
+      FL C:/ff/S_box_gost/sha256_functions.vhd PH work/sha256_functions 1702104539
+FL C:/ff/S_box_gost/sha256_types.vhd 2023/12/09.12:58:08 P.20131013
+PH work/sha256_types 1702104537 FL C:/ff/S_box_gost/sha256_types.vhd \
+      PB ieee/std_logic_1164 1381692176

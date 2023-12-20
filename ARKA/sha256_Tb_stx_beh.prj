@@ -1,0 +1,5 @@
+vhdl isim_temp "sha256_types.vhd"
+vhdl isim_temp "sha256_constants.vhd"
+vhdl isim_temp "sha256_functions.vhd"
+vhdl isim_temp "sha256.vhd"
+vhdl isim_temp "sha256_Tb.vhd"

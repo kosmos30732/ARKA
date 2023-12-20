@@ -1,0 +1,4 @@
+vhdl work "C:\ff\S_box_gost\sha256_types.vhd"
+vhdl work "C:\ff\S_box_gost\sha256_constants.vhd"
+vhdl work "C:\ff\S_box_gost\sha256_functions.vhd"
+vhdl work "C:\ff\S_box_gost\sha256.vhd"

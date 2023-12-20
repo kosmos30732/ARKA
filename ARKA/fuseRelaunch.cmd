@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/ff/S_box_gost/fsm_2Tb_isim_beh.exe" -prj "C:/ff/S_box_gost/fsm_2Tb_beh.prj" "work.fsm_2Tb" 

@@ -1,0 +1,2 @@
+vhdl isim_temp "SboxDES.vhd"
+vhdl isim_temp "SboxDESTb.vhd"

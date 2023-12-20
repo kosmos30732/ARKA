@@ -1,0 +1,29 @@
+Command line:
+   fsm_2Tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50887
+
+Wed Dec 20 10:55:07 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5151.07 Meg
+
+ Total Signals          : 15
+ Total Nets             : 10
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 372
+Total Line Count : 64
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4993.79 Meg
+
+Wed Dec 20 10:56:44 2023
+

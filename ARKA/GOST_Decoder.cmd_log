@@ -1,0 +1,6 @@
+vhdtdtfi -lib work GOST_Decoder.vhd -prj S_box_gost -o GOST_Decoder.spl -module GOST_Decoder -template C:/NX/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 GOST_Decoder.spl C:/ff/S_box_gost/GOST_Decoder.sym 
+vhdtdtfi -lib work GOST_Decoder.vhd -prj S_box_gost -o GOST_Decoder.spl -module GOST_Decoder -template C:/NX/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 GOST_Decoder.spl C:/ff/S_box_gost/GOST_Decoder.sym 
+vhdtdtfi -lib work GOST_Decoder.vhd -prj S_box_gost -o GOST_Decoder.spl -module GOST_Decoder -template C:/NX/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 GOST_Decoder.spl C:/ff/S_box_gost/GOST_Decoder.sym 

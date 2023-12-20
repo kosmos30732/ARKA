@@ -1,0 +1,2 @@
+vhdtdtfi -lib work SboxGOST.vhd -prj S_box_gost -o SboxGOST.spl -module SboxGOST -template C:/NX/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 SboxGOST.spl C:/ff/S_box_gost/SboxGOST.sym 

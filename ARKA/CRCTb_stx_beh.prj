@@ -1,0 +1,3 @@
+vhdl isim_temp "RAM.vhd"
+vhdl isim_temp "CRC.vhd"
+vhdl isim_temp "CRCTb.vhd"

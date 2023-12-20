@@ -1,0 +1,4 @@
+vhdl isim_temp "GOST_Decoder.vhd"
+vhdl isim_temp "GOST_Coder.vhd"
+vhdl isim_temp "SboxGOSTsch.vhf"
+vhdl isim_temp "SboxGOSTschTb.vhd"
